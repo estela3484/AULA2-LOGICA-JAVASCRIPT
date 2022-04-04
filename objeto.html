@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let objeto = parseFloat(prompt("digite quantos lados seu poligono tera:"))
+let medida = parseFloat(prompt("digite quantos cm terá a medida"))
+let resultado = medida*medida
+if(objeto==3){
+window.alert("TRIANGULO e sua medida escolhida foi: "+medida+" por fim a somatoria de todos os lados da medida foi: "+resultado+"cm")
+}
+else if(objeto==4){
+window.alert("QUADRADO e sua medida escolhida foi: "+medida+" por fim a somatoria de todos os lados da medida foi: "+resultado+"cm")
+}
+else if (objeto==5){
+window.alert("POLIGONO e sua medida escolhida foi: "+medida+" por fim a somatoria de todos os lados da medida foi: "+resultado+"cm")
+}
+if(objeto<3){
+    window.alert("NAO É UM PENTAGONO")
+}
+else if(objeto<3){
+    window.alert("NAO É UM POLIGONO")
+}
+else if(objeto>5){
+    window.alert("NAO LOCALIZADO")
+}
+
+
+    </script>
+</body>
+</html>
